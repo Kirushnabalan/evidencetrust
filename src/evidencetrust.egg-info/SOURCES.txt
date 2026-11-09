@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/evidencetrust/__init__.py
+src/evidencetrust.egg-info/PKG-INFO
+src/evidencetrust.egg-info/SOURCES.txt
+src/evidencetrust.egg-info/dependency_links.txt
+src/evidencetrust.egg-info/top_level.txt
+src/evidencetrust/utils/__init__.py
+src/evidencetrust/utils/config.py

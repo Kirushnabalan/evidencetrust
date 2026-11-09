@@ -1,0 +1,24 @@
+# EvidenceTrust - data config
+drive_root: D:/FYP/dataset        # local; on Colab pass --drive-root /content/drive/MyDrive/dataset
+
+paths:
+  raw_json: raw/megavul.json
+  graph_dir: raw/megavul_graph
+  clean: processed/clean.parquet
+  dedup_report: processed/dedup_report.json
+  splits_dir: splits
+  audit_dir: artifacts/reports/audit
+
+expected:            # official MegaVul README (Java)
+  total: 41949
+  vul: 2433
+  non_vul: 39516
+  repos: 362
+  cves: 775
+
+split:
+  seed: 42
+  n_folds: 20        # 14 train (70%) / 3 val (15%) / 3 test (15%)
+  train_folds: 14
+  val_folds: 3
+  group_by: cve_id
