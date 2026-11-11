@@ -5,9 +5,13 @@ src/evidencetrust.egg-info/PKG-INFO
 src/evidencetrust.egg-info/SOURCES.txt
 src/evidencetrust.egg-info/dependency_links.txt
 src/evidencetrust.egg-info/top_level.txt
+src/evidencetrust/data/audit.py
 src/evidencetrust/data/dedup.py
 src/evidencetrust/data/load_megavul.py
 src/evidencetrust/data/split.py
+src/evidencetrust/diagnostics/semantic.py
+src/evidencetrust/diagnostics/tokenize.py
 src/evidencetrust/utils/__init__.py
 src/evidencetrust/utils/config.py
 tests/test_data.py
+tests/test_semantic_diag.py

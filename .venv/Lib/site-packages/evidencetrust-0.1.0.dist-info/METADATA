@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: evidencetrust
+Version: 0.1.0
+Summary: Representation-adequacy-aware semantic-structural fusion for reliable Java vulnerability detection
+Requires-Python: >=3.10
